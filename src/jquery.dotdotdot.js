@@ -684,7 +684,7 @@
 	};
 
 
-})( jQuery );
+})( jquery );
 
 /*
 
@@ -722,7 +722,7 @@ You can add one or several CSS classes to HTML elements to automatically invoke 
 	
 */
 
-jQuery(document).ready(function($) {
+jquery(document).ready(function($) {
 	//We only invoke jQuery.dotdotdot on elements that have dot-ellipsis class
 	$(".dot-ellipsis").each(function(){
 		//Checking if update on window resize required
@@ -754,6 +754,6 @@ jQuery(document).ready(function($) {
 });
 
 //Updating elements (if any) on window.load event
-jQuery(window).on('load', function(){
-	jQuery(".dot-ellipsis.dot-load-update").trigger("update.dot");
+jquery(window).on('load', function(){
+	jquery(".dot-ellipsis.dot-load-update").trigger("update.dot");
 });
